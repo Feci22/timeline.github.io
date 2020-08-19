@@ -1,0 +1,116 @@
+@import'utilities'; 
+
+.heading-title {
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.fs-1 {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.fs-2 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.fs-3 {
+  font-size: 2.5rem;
+  line-height: 1.2;  
+}
+
+.fas {
+  color: $primary-color;
+}
+
+.fas-2 {
+  color: $primary-color-2;
+}
+
+.border-2 {
+  border: 3px solid $primary-color-2 !important;
+}
+
+.tp-1 {
+  color: $primary-color;
+} 
+
+.tp-2 {
+  color: $primary-color-2;
+}
+.lead {
+  font-size: 1rem;
+  line-height: 1rem;  
+}
+
+.text-upper {
+  text-transform: uppercase;
+  padding: .5rem;
+}
+
+.current {
+  border-bottom: 3px solid $primary-color;
+}
+
+.current-2 {
+  border-bottom: 3px solid $primary-color-2;
+}
+
+.bg-primary {
+  background: $primary-color;
+  color: $light-color;
+}
+
+.bg-primary-2 {
+  background: $primary-color-2 !important;
+  color: $light-color;
+}
+
+.bg-dark {
+  background: $dark-color;
+  color: $light-color;
+}
+
+.bg-light {
+  background: $light-color;
+  color: $dark-color;
+}
+
+.bg-main {
+  background: $main-color;
+  color: $secondary-color;
+}
+
+.bg-secondary {
+  background: $secondary-color;
+}
+
+
+.bottom-line {
+  border-bottom: 3px solid $primary-color;
+}
+
+.bottom-line-2 {
+  border-bottom: 3px solid $primary-color-2;
+}
+
+.pc-2 {
+  background: $primary-color-2;
+}
