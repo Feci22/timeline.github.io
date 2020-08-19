@@ -254,7 +254,7 @@ img {
   }
 }
 
-@media (max-width: 1100px) {
+@media (min-width: 768px) and (max-width: 1100px) {
   .timeline__list__item__box {
     max-width: 330px;
   }
@@ -291,12 +291,6 @@ img {
 @media (max-width: 768px) {
   .timeline__list__item:nth-child(2n) div {
     left: 40px;
-  }
-}
-
-@media (max-width: 1100px) {
-  .timeline__list__item:nth-child(2n) div {
-    left: -360px;
   }
 }
 
