@@ -162,9 +162,9 @@ img {
           left: 40px; 
         }
 
-        @include for-tablet-only {    
-          left: -360px; 
-        }
+        // @include for-tablet-only {    
+        //   left: -360px; 
+        // }
         
         &:before {
           right: -15px;
