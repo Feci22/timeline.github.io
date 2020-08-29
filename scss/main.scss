@@ -33,6 +33,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 
   &__logo {
     background: url(../dist/img/logo.png)no-repeat center center/cover;
@@ -40,8 +41,13 @@ img {
     left: 0;
     width: 40px;
     height: 40px;
-    margin-left: 2rem;
-    // cursor: pointer;
+    margin-left: 2rem; 
+
+    a {
+      display: block;
+      padding: 1rem;
+      margin: auto;
+    }
   }
 
   @include for-phone-only {    
