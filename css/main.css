@@ -140,6 +140,27 @@ img {
   width: 100%;
 }
 
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-nav__logo {
+  background: url(../dist/img/logo.png) no-repeat center center/cover;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  margin-left: 2rem;
+}
+
 @media (max-width: 768px) {
   .main-nav {
     max-width: 768px;

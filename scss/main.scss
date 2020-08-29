@@ -30,6 +30,20 @@ img {
 
 .main-nav {
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    background: url(../dist/img/logo.png)no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: 2rem;
+    // cursor: pointer;
+  }
+
   @include for-phone-only {    
     max-width: 768px; 
   }
