@@ -206,6 +206,20 @@ img {
   }
 }
 
+.timeline__2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(58, 56, 57, 0.5)), to(rgba(27, 32, 30, 0.8))), url(../dist/img/showcase2.jpg);
+  background-image: linear-gradient(rgba(58, 56, 57, 0.5), rgba(27, 32, 30, 0.8)), url(../dist/img/showcase2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .timeline__2 {
+    max-width: 768px;
+  }
+}
+
 .timeline__list {
   padding: 50px 0;
 }

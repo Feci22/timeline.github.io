@@ -86,6 +86,17 @@ img {
     max-width: 768px; 
   }
 
+  &__2 {
+    background-image: linear-gradient(rgba(58, 56, 57, 0.5), rgba(27, 32, 30, 0.8)), url(../dist/img/showcase2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @include for-phone-only {    
+    max-width: 768px; 
+  }
+  }
+
   &__list {
     padding: 50px 0;
     
